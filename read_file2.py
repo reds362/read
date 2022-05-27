@@ -33,5 +33,16 @@ print('一共有', len(good),'筆資料')
 print(good[1])
 
 
+bad = ['cool' for d in data if 'bad' in d]
+print(len(bad))
+print(bad)
+
+
+bad =[]
+for d in data:
+	if 'bad' in d:
+		bad.append(d)
+print(len(bad))
+print(bad)
 
 
